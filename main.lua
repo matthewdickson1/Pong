@@ -45,8 +45,8 @@ function love.load()
 	winningPlayer = 0
 
 	--declare y co-ordinates
-	paddle1 = Paddle(5, 20, 5, 200)
-	paddle2 = Paddle(VIRTUAL_WIDTH - 10, VIRTUAL_HEIGHT - 30, 5, 200)
+	paddle1 = Paddle(5, 20, 5, 20)
+	paddle2 = Paddle(VIRTUAL_WIDTH - 10, VIRTUAL_HEIGHT - 30, 5, 20)
 
 	ball = Ball(VIRTUAL_WIDTH/2 -2, VIRTUAL_HEIGHT/2 -2, 5, 5)
 
